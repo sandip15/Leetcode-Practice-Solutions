@@ -42,7 +42,7 @@ const {firstName,lastName,destination,occupation,spell} = newObject
 
 console.log(firstName, lastName, destination, occupation,spell)
 
-// 4. Combine these arrays with array spreading
+// 4. Combine these arrays with ES6 array spreading operator
 const west = ["Will", "Chris", "Sam", "Holly"]
 
 const east = ["Gill", "Brian", "Noel", "Maggie"]
