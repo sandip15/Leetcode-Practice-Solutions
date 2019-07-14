@@ -11,6 +11,7 @@ var phn = "my phone number is 0086-18302177036"
 console.log(phn.replace(/[0-9]/gi, 'X'));
 
 // shifting and unshifting array methods in js
+// for inserting at the beggining of the array we use the unshift method
 var arr = [4,6,3,74,35,77];
 
 console.log(arr.shift()); // removes 4
