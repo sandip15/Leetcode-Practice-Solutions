@@ -5,8 +5,8 @@ A defanged IP address replaces every period "." with "[.]".*/
 
 
 var defangIPaddr = function(address) {
-  let array = address.split('.') 
-  return array.join('[.]')
+  let array = address.split('.')     // converting the string input to array 
+  return array.join('[.]')          // merging the array elements 
 };
 defangIPaddr("255.100.50.0")
 
