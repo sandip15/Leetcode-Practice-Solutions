@@ -24,7 +24,7 @@ const newFunction = (firstName,lastName) => {
 
 newFunction("William", "Imoh").fullName()
 
-//2. Condense this to 8 lines with destructuring
+//2. Condense this to 8 lines with destructuring using es6 features 
 const newObject = {
   firstName: "Harry",
   lastName: "Potter Holt",
