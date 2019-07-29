@@ -1,5 +1,6 @@
 //pinduoduo written exam
-1.
+//1. problem : guess the output of the following piece of code:
+
 setTimeout(function(){
   console.log('1')
 })
@@ -12,9 +13,11 @@ new Promise(function(resolve){
 });
 console.log('4');
 
-output is 2 ,4 ,3 ,1 
+//answer:
+// output is 2 ,4 ,3 ,1 
 
-2.
+//2. problem: what is the output of the following code:
+
 var bb = 1;
 function aa(bb){
   bb = 2
@@ -22,13 +25,20 @@ function aa(bb){
 }
 aa(bb)
 alert(bb)
-output is 2, then 1
+
+//answer:  output is 2, then 1
 
 
-3.
+//3. what is the value of a.length of the following code:
+
 var a = []
 a[0]=1
 a[1]=2
 a[2]=3
 a[5]=4
-a.length // output is 6
+
+a.length 
+
+//Answer:  output is 6
+
+
