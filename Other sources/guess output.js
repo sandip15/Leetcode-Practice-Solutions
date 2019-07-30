@@ -41,4 +41,22 @@ a.length
 
 //Answer:  output is 6
 
+//4. what is the output of the following
+
+var x = 3;
+
+var foo = {
+    x: 2,
+    baz: {
+        x: 1,
+        bar: function() {
+            return (this.x);
+        }
+    }
+}
+
+var go = foo.baz.bar;
+
+console.log(go());  // outputs 3
+console.log(foo.baz.bar());  // outputs 1
 
