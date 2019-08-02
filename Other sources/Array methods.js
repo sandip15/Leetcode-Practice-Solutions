@@ -65,3 +65,20 @@ function compare (arr1, arr2){
   })
   return arr3;
 }
+
+//------------------------------------*******----------------------------------------
+//flatteing (converting a two dimensional array into one dimensional one ) method of array
+var arrays = [
+  ["$6"],
+  ["$12"],
+  ["$25"],
+  ["$25"],
+  ["$18"],
+  ["$22"],
+  ["$10"]
+];
+
+var mer = [].concat.apply([],arrays)
+//or mer = [].concat(...arrays)   //using es6 
+console.log(mer)
+
