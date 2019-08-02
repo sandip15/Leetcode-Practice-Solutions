@@ -82,3 +82,15 @@ var mer = [].concat.apply([],arrays)
 //or mer = [].concat(...arrays)   //using es6 
 console.log(mer)
 
+
+//------------------------------------*******----------------------------------------
+//flatteing a multi dimensional array
+
+function flatten(array){
+  return array.reduce(function (presentElement,nextElement){
+    return presentElement.concat(Array.isArray(nextElement)? flatten(nextElement) : nextElement);
+  },[])
+}
+var array = [1,2,[3,4],[5,[6,7]]]
+flatten(array)
+
