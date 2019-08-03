@@ -68,6 +68,7 @@ function compare (arr1, arr2){
 
 //------------------------------------*******----------------------------------------
 //flatteing (converting a two dimensional array into one dimensional one ) method of array
+// unfortunately this method works only with one dimensional arrays, for multidimensional arrays follow the next approach
 var arrays = [
   ["$6"],
   ["$12"],
@@ -84,6 +85,7 @@ console.log(mer)
 
 
 //------------------------------------*******----------------------------------------
+// this method works with the multidimensional arrays
 //flatteing a multi dimensional array
 
 function flatten(array){
