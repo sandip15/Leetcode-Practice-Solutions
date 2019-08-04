@@ -19,7 +19,7 @@ console.log(arr);
 arr.unshift(12); // inserts 12 at the head of the array
 console.log(arr);
 
-//sorting methods in js
+//differnt sorting methods in js
 
 arr.sort(function(a,b){
   return a-b ;
