@@ -51,7 +51,7 @@ function compare (arr1, arr2){
   return arr3;
 }
 
-// using es6 syntax
+// re-writing using es6 syntax
 
 function compare (arr1, arr2){
   const arr3 = [];
