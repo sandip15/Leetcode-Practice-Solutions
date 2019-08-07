@@ -59,7 +59,7 @@ function reverseString(str) {
 
 reverseString("hello");
 
-//6. find the length of the longest word in a string 
+//6. find the length of the longest word in a given string 
 
 function findLongestWordLength(str) {
   let splt = str.split(" ");
