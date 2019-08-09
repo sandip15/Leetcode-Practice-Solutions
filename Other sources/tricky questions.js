@@ -52,7 +52,7 @@ console.log(arr2)
 
 
 
-//problem:  write the output 
+//problem:  write the output of the following piece of code
 
 let a ={
   url :'996'
