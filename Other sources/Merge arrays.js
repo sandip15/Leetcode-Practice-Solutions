@@ -9,7 +9,7 @@ var addElement = function (arr1,arr2){
   let j = 1;
 
 	while (arr1item || arr2item){
-    //console.log(arr1item,arr2item)
+    
 		if (!arr2item || arr1item<arr2item){
     //need to check always so that the while loop does not become undefined 
 			mergedArray.push(arr1item)
