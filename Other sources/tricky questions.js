@@ -69,3 +69,15 @@ console.log(c)
 //{name: 'sandip', url : {
 //   url: '996.icu'
 // }}
+
+//problem 
+(function(){
+  var a = b = 3;
+})();
+
+console.log("a defined? " + (typeof a !== 'undefined'));
+console.log("b defined? " + (typeof b !== 'undefined'));
+
+//output is: 
+a defined? false
+b defined? true
