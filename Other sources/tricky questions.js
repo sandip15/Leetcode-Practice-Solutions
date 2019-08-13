@@ -70,7 +70,7 @@ console.log(c)
 //   url: '996.icu'
 // }}
 
-//problem 
+//problem: guess the output of the following problem 
 (function(){
   var a = b = 3;
 })();
@@ -83,7 +83,7 @@ a defined? false
 b defined? true  */
 
 
-//problem : 
+//problem : what is the output of the following problem 
 var myObject = {
     foo: "bar",
     func: function() {
