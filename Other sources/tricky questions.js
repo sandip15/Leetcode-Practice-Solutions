@@ -123,5 +123,16 @@ function sum(x,y){
 console.log(sum(2,3))
 console.log(sum(2)(3))
 
+//guess the output of the following expressions
+console.log("0 || 1 = "+(0 || 1));
+console.log("1 || 2 = "+(1 || 2));
+console.log("0 && 1 = "+(0 && 1));
+console.log("1 && 2 = "+(1 && 2));
 
+/*output is :
+0 || 1 = 1
+1 || 2 = 1
+0 && 1 = 0
+1 && 2 = 2
+*/
 
