@@ -103,3 +103,25 @@ outer func:  this.foo = bar
 outer func:  self.foo = bar
 inner func:  this.foo = undefined
 inner func:  self.foo = bar  */
+
+
+/*problem: write a function so that both of the following function call works 
+console.log(sum(2,3))
+console.log(sum(2)(3)) */
+
+//solution :
+function sum(x,y){
+  if (y!== undefined){
+    return x+y;
+  }else{
+    return function (y){
+      return x+y
+    }
+  }
+}
+
+console.log(sum(2,3))
+console.log(sum(2)(3))
+
+
+
