@@ -150,3 +150,14 @@ obj.method(fn, 1);
 //output is 
 10
 2 
+
+//problem : what is the output of the following problem 
+
+var x = 21;
+var girl = function () {
+    console.log(x);
+    var x = 20;
+};
+girl ();
+
+/* output is  undefined */
