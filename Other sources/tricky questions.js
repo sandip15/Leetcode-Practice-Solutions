@@ -136,3 +136,17 @@ console.log("1 && 2 = "+(1 && 2));
 1 && 2 = 2
 */
 
+//problem : guess the output of the following 
+var obj = {
+  length: 5,
+  method: function(fn) {
+    fn();
+    arguments[0]();
+  }
+};
+
+obj.method(fn, 1);
+
+//output is 
+10
+2 
