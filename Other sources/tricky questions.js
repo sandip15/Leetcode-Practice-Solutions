@@ -78,7 +78,7 @@ console.log(c)
 console.log("a defined? " + (typeof a !== 'undefined'));
 console.log("b defined? " + (typeof b !== 'undefined'));
 
-/*output is: 
+/*what is the output of the following:
 a defined? false
 b defined? true  */
 
@@ -150,6 +150,8 @@ obj.method(fn, 1);
 //output is 
 10
 2 
+
+
 
 //problem : what is the output of the following problem 
 
