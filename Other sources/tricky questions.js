@@ -65,10 +65,10 @@ let c = Object.assign({},b);
 a.url = a.url + '.icu'
 console.log(c)
 
-//output is :
-//{name: 'sandip', url : {
-//   url: '996.icu'
-// }}
+/* output is :
+{name: 'sandip', url : {
+  url: '996.icu'
+ }} */
 
 //problem: guess the output of the following problem 
 (function(){
