@@ -136,7 +136,7 @@ console.log("1 && 2 = "+(1 && 2));
 1 && 2 = 2
 */
 
-//problem : guess the output of the following 
+//problem : guess the output of the following Problem
 var obj = {
   length: 5,
   method: function(fn) {
