@@ -41,7 +41,7 @@ a.length
 
 //Answer:  output is 6
 
-//4. what is the output of the following
+//4. what is the output of the following problem
 
 var x = 3;
 
