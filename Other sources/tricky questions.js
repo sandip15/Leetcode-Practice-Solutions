@@ -169,7 +169,7 @@ console.log(1 < 2 < 3);  //output is true , can you tell why ?
 console.log(3 > 2 > 1);  // output is false ,  can you tell why ?
 
 /*How do you check if an object is an array or not? */
-
+//solution of the problem 
 var arrayList = [1,2,3];
 if( Object.prototype.toString.call( arrayList ) === '[object Array]' ) {
     console.log('Array!');
