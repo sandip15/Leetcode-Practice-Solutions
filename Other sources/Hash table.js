@@ -1,4 +1,5 @@
-// task : implement your own hash table 
+// task : implement your own hash table to fully understand how it works underneath the hood
+
 
 class HashTable{
 	constructor(size){
