@@ -20,6 +20,7 @@ function Animal (name,energy){
   this.energy = energy;
 }
 // when we use the keyword 'new' during instantiating the new object then we follow the above method.
+//(here we dont have to create an object and then return that object like the previous one)
 const leo = new Animal ("leo",10);
 const snoop = new Animal ('snoop',12);
 
