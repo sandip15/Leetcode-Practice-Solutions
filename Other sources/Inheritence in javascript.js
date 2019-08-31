@@ -1,4 +1,4 @@
-// How the inheritence works in javascript
+// How the inheritence works in javascript ：
 // Prototype : Prototype is a property that every function you create in javasctipt has, that points to an object.
 
 //Basics : 
