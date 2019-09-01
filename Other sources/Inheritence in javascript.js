@@ -40,7 +40,8 @@ function Dog(name,type){
   Animal.call(this,name,type); //to inherit properties of the parent function we need to use the call function 
 }
 
-Dog.prototype = Object.create(Animal.prototype) //to inherit the methods of the parent function we need to use the object.create to link prototype
+Dog.prototype = Object.create(Animal.prototype) //to inherit the methods of the parent function we need to use the
+                                                //object.create to link the prototype
 let pet = new Dog("max",'mixed');
 pet.shout()
 pet.sing()
