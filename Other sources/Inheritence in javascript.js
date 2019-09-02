@@ -10,7 +10,7 @@ function Animal(name,energy){
   return animal;
 }
 
-/*when we use the above method with creating another object and then returning that object, we instantiate 
+/* when we use the above method with creating another object and then returning that object, we instantiate 
 the new object by the following way: */
 const leo = Animal ('leo',10);
 const snoop = Animal('snoop',12);
@@ -19,8 +19,8 @@ function Animal (name,energy){
   this.name = name;
   this.energy = energy;
 }
-// when we use the keyword 'new' during instantiating the new object then we follow the above method.
-//(here we dont have to create an object and then return that object like the previous one)
+// when we use the keyword 'new' during instantiating a new object then we follow the above method.
+//(here we dont have to create an object and then return that object like the previous one, the new keyword will take care of the rest)
 const leo = new Animal ("leo",10);
 const snoop = new Animal ('snoop',12);
 
