@@ -1,4 +1,4 @@
-//problem: given two sorted arrays merge them together into one array keeping it sorted.
+//problem: given two sorted arrays merge them together into one array so that the resultant array also maintains this sorting order
 
 var addElement = function (arr1,arr2){
   const mergedArray =[];
