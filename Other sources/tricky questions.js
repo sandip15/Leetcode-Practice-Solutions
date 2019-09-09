@@ -83,7 +83,7 @@ a defined? false
 b defined? true  */
 
 
-//problem : what is the output of the following problem 
+//problem : write the  output of the following problem 
 var myObject = {
     foo: "bar",
     func: function() {
