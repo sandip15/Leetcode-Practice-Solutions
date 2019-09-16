@@ -41,7 +41,7 @@ function Dog(name,type){
 }
 
 Dog.prototype = Object.create(Animal.prototype) //to inherit the methods of the parent function we need to use the
-                                                //object.create to link the prototype
+                                                //object.create to link the prototype, here no need to create a separate object like the previous one.
 let pet = new Dog("max",'mixed');
 pet.shout()
 pet.sing()
