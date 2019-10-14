@@ -20,6 +20,7 @@ promiseToClean().then(function(result){
 
 
 //-----------------------------------------------
+//using ES6 syntex
 
 const promise = new Promise((resolve,reject)=>{
   if (true){
