@@ -17,3 +17,16 @@ promiseToClean().then(function(result){
 }).then(function(result){
   console.log('finished ' + result);
 })
+
+
+//-----------------------------------------------
+
+const promise = new Promise((resolve,reject)=>{
+  if (true){
+    resolve("it worked!!")
+  }else{
+    reject("there is an error!! ")
+  }
+})
+
+promise.then(result => result + '!').then(result2 => {console.log(result2 + "--")});
