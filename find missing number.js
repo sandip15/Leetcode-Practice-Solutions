@@ -19,3 +19,17 @@ var firstMissingPositive = function(nums) {
 
 var nums = [7,8,1,9,11,12]
 firstMissingPositive(nums)
+
+
+//----------------------another approach ----------------------
+
+let missingNumber = function (arr){
+  arr = arr.sort();
+  for (let i=0 ;i<arr.length ; i++){
+    if(arr[i]+1 !== arr[i+1]){
+      return arr[i]+1
+    }
+  }
+}
+
+missingNumber([7,4,8,3,2,1,8])   // returns 5
