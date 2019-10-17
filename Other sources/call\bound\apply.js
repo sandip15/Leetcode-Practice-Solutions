@@ -1,4 +1,5 @@
 //practicing the use of call and apply to change the value of this 
+// call is used for passing the inheritence
 
 function add(a,b){
   return a+b + this.c + this.d
