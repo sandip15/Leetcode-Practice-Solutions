@@ -1,5 +1,6 @@
 //practicing the use of call and apply to change the value of this 
-// call is used for passing the inheritence
+// generally call is used for passing the inheritence from the mother class to the children class
+
 
 function add(a,b){
   return a+b + this.c + this.d
