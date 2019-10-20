@@ -1,4 +1,4 @@
-//learn how to use promise in js
+//learn how to use promise in js （make asynchoronous operations easy to handle)
 
 let promiseToClean = function(){
   return new Promise(function(resolve,reject){
