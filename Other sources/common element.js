@@ -1,6 +1,6 @@
 //find common element of the array without using nested arrays which is usually very time consuming, we can use hash table or object to increase the time complexity of this 
 
-unction findCommon (array){
+function findCommon (array){
   let obj = {};
   let arr = [];
   for (let i =0; i <array.length; i++){
