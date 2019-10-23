@@ -26,7 +26,7 @@ class HashTable{
 	console.log(this.data)
   }
 
-  //given any key retrieving the value stored with that key
+  //given any given key retrieving the value stored with that key
   get(key){
     let address = this._hash(key)
     const holdingBucket= this.data[address]
