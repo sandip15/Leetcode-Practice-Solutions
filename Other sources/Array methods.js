@@ -1,4 +1,5 @@
-// reverse the digits of a given number.
+// reverse the digits of a given number ....
+
 var jh = 12345;
 console.log(jh.toString().split("").reverse()); // converting the number to string to use reverse method. for returning the number need to add join method
 
