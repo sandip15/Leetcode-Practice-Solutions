@@ -165,8 +165,8 @@ girl ();
 /* output is  undefined */
 
 //extra little tricky questions ： what is the output of the following question 
-console.log(1 < 2 < 3);  //output is true , can you tell why ?
-console.log(3 > 2 > 1);  // output is false ,  can you tell why ?
+console.log(1 < 2 < 3);  //output is true , please state the reason behind that?
+console.log(3 > 2 > 1);  // output is false ,  also state the reason please ?
 
 /*How do you check if an object is an array or not? */
 //solution of the problem 
