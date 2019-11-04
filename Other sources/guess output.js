@@ -29,7 +29,7 @@ alert(bb)
 //answer:  output is 2, then 1
 
 
-//3. what is the value of a.length of the following code:
+//3. guess what is the value of a.length of the following code:
 
 var a = []
 a[0]=1
