@@ -12,7 +12,7 @@ let numJewelsInStones = function (j,s){
   let jewelArray = j.split("")
   let counter = 0;
   
-//using ES6 syntax
+//using ES6 syntax rewrite the above function 
   stoneArray.forEach((e1)=>{
     jewelArray.forEach((e2)=>{
       if (e1 === e2) counter++;
