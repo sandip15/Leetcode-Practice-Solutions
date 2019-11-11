@@ -1,5 +1,5 @@
 //andrew course ex:23 (this keyword)
-//tricky javascript problem, write the output of the following questions
+//tricky javascript problem, write what is the output of the following questions
 
 var b = {
   name: 'sandip',
