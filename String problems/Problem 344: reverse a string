@@ -1,6 +1,6 @@
 
 // leetcode problem no :344 
-// Reverse a given string using  0(1) space, therefore not allowed use any new data structure
+// Reverse a given string using  0(1) space, therefore not allowed use any new data structure for solving this problem
 
 var reverseString = function(s) {
   var i =0;
