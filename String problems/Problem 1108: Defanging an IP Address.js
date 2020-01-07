@@ -1,11 +1,11 @@
 //leetcode problem : 1108. Defanging an IP Address
-/*Given a valid (IPv4) IP address, return a defanged version of that IP address.
+/*Given a valid (IPv4) IP address, we have to return a defanged version of that IP address.
 
 A defanged IP address replaces every period "." with "[.]".*/
 
 
 var defangIPaddr = function(address) {
-  let array = address.split('.')     // converting the string input to array 
+  let array = address.split('.')     // converting the string input into an array 
   return array.join('[.]')          // merging the array elements 
 };
 defangIPaddr("255.100.50.0")
