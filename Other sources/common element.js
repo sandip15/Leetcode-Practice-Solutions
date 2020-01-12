@@ -1,4 +1,5 @@
-//find common element of the array without using nested arrays which is usually very time consuming, we can use hash table or object to increase the time complexity of this 
+/* question is to find common element of the array without using nested arrays which is usually very time consuming, 
+we can use hash table or object to increase the time complexity of this */
 
 function findCommon (array){
   let obj = {};
