@@ -1,4 +1,4 @@
- /* problem:  Find the first missing positive integer from a given array
+ /* problem:  Need to Find the first missing positive integer from a given array
  
  * @param {number[]} nums
  * @return {number}
@@ -21,7 +21,7 @@ var nums = [7,8,1,9,11,12]
 firstMissingPositive(nums)
 
 
-//----------------------another approach ----------------------
+//----------------------alternative approach ----------------------
 
 let missingNumber = function (arr){
   arr = arr.sort();
