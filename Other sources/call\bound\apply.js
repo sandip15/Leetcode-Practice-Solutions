@@ -1,4 +1,4 @@
-//practicing the use of call and apply to change the value of this 
+// question: implement the use of call and apply method to change the value of this 
 // generally call is used for passing the inheritence from the mother class to the children class
 
 
