@@ -1,6 +1,6 @@
 //-------------------------solve a leetcode problem using different kinds of loops in javascript----------------
 
-//leetcode problem number 771(easy)
+// Question: leetcode problem number 771(easy)
 /* You're given strings J representing the types of stones that are jewels, and S representing the stones you have. 
 Each character in S is a type of stone you have.  You want to know how many of the stones you have are also jewels.
 
@@ -12,7 +12,7 @@ let numJewelsInStones = function (j,s){
   let jewelArray = j.split("")
   let counter = 0;
   
-//using ES6 syntax rewrite the above function 
+// question: using ES6 syntax rewrite the above function 
   stoneArray.forEach((e1)=>{
     jewelArray.forEach((e2)=>{
       if (e1 === e2) counter++;
