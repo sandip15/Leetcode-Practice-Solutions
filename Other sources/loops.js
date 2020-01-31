@@ -1,4 +1,4 @@
-//-------------------------solve a leetcode problem using different kinds of loops in javascript----------------
+//-------------------------solving a leetcode problem using different kinds of loops in javascript----------------
 
 // Question: leetcode problem number 771(easy)
 /* You're given strings J representing the types of stones that are jewels, and S representing the stones you have. 
