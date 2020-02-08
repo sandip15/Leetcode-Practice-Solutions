@@ -10,8 +10,7 @@ let obj = {c:3,d:5}
 /* The first parameter is the object to use as 'this', subsequent parameters are passed as  arguments in the function call */
 add.call(obj,1,5)
 
-/* The first parameter is the object to use as
- 'this', the second is an array whose members are used as the arguments in the function call */
+/* The first parameter is the object to use as 'this', the second is an array whose members are used as the arguments in the function call */
 add.apply(obj,[1,2])
 
 ----------------
