@@ -1,4 +1,4 @@
-//20 essential javascript interview questions
+//20 essential javascript interview questions:
 
-//still to update, look in the following link
+//still need to update, for more updates visit the following link
 //https://adevait.com/javascript-developers/interview-questions
