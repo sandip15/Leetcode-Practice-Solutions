@@ -1,4 +1,4 @@
-// we need to reverse the digits of a given number ....
+// Question: We need to reverse the digits of a given number ....
 
 var jh = 12345;
 console.log(jh.toString().split("").reverse()); // converting the number to string to use reverse method. for returning the number need to add join method
@@ -29,7 +29,7 @@ arr.sort(function(a,b){
   return b-a;
 })
 
-// given two arrays return the common elements between those two arrays
+// Question: given two arrays return the common elements between those two arrays
 
 array1 = [10, 20, 4, 14, 4,22,22,2,22]
 array2 = [10, 2, 12, 4, 5,23,100,23,5]
