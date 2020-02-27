@@ -1,4 +1,4 @@
-//leetcode problem : 1108. given an IP ,Defanging an IP Address
+//leetcode problem number: 1108. given an IP ,Defanging an IP Address
 /*Given a valid (IPv4) IP address, we have to return a defanged version of that IP address.
 
 A defanged IP address replaces every period "." with "[.]".*/
