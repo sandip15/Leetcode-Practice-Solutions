@@ -1,5 +1,5 @@
 // leetcode problem no :344 
-// we have to Reverse a given string using  0(1)space , therefore cant use any new data structure
+// given a string  Reverse a given string using  0(1)space , therefore cant use any new data structure
 
 var reverseString = function(s) {
   var i =0;
