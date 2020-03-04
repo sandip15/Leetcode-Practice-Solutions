@@ -2,7 +2,7 @@
 
 
 class HashTable{
-	constructor(size){
+	constructor(size){  // defining the constructor
 		this.data = new Array(size)
 	}
  
