@@ -1,5 +1,5 @@
 //pinduoduo written exam
-//1. problem : guess the output of the following piece of code:
+//1. problem : Need to guess the output of the following piece of code:
 
 setTimeout(function(){
   console.log('1')
