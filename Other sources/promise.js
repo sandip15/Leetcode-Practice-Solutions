@@ -1,5 +1,5 @@
 //practicing about how to use promise in js （make asynchoronous operations easy to handle)
-// question: implement a promise in js
+// Question: how to implement a promise in js
 let promiseToClean = function(){
   return new Promise(function(resolve,reject){
     resolve ("Room is cleaned");
