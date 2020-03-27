@@ -59,7 +59,7 @@ function reverseString(str) {
 
 reverseString("hello");
 
-//6. giveb a string find the length of the longest word in a given string 
+//6. given a string find the length of the longest word in a given string 
 
 function findLongestWordLength(str) {
   let splt = str.split(" ");
@@ -90,7 +90,7 @@ function largestOfFour(arr){
 
   largestOfFour([[4, 5, 23, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
   
-  //8. repeat the given strings for given n  times
+  //8. Need to repeat the given strings for given n  times
 function repeatStringNumTimes(str, num) {
   // repeat after me
   newstr = '';
