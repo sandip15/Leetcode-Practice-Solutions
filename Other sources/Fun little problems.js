@@ -1,4 +1,4 @@
-//problem 01. Please Simplify the following code  with es6 enhanced object literals
+//problem 01. task is to  Simplify the following code  with es6 enhanced object literals
 
 const newFunction = function literal(firstName, lastName){
   return {
@@ -52,7 +52,7 @@ const combined = [...west,...east]
 console.log(combined)
 
 
-//5. Reverse a given string 
+//5. need to reverse a given string 
 function reverseString(str) {
   return str.split("").reverse().join("")
 }
