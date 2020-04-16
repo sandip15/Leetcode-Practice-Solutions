@@ -1,5 +1,5 @@
 //andrew course ex:23 (this keyword)
-//tricky javascript problem, write what is the output of the following questions
+//tricky javascript problem, find the output of the following questions
 
 var b = {
   name: 'sandip',
@@ -29,7 +29,7 @@ d.say()()  /* outputs the d object. here this refers to the d object since we ar
 is lexically scoped, instead of functionally scoped. */
 
 
-//problem: need to answer what is the output of the following: 
+//problem: what is the output of the following: 
 
 let arr = [1,2,3];
 arr.map(item => {return item*2});
