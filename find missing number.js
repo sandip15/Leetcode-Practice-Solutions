@@ -1,4 +1,4 @@
- /* Question:  Need to Find the first missing positive integer from a given array
+ /* Question: Find out the first missing positive integer from a given array
  
  * @param {number[]} nums
  * @return {number}
