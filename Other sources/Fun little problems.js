@@ -73,7 +73,7 @@ function findLongestWordLength(str) {
   return counter; 
 }
 
-//7.  Return an array containing the Largest Numbers from each sub array.
+//7.  need to return an array containing the Largest Numbers from each sub array.
 function largestOfFour(arr){
   var result = [];
   for (var i=0 ; i<arr.length; i++){
