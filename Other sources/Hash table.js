@@ -1,4 +1,4 @@
-// task : Implement a hash table from scratch to fully understand how it works underneath the hood
+// task : Need to  Implement a hash table from scratch to fully understand how it works underneath the hood
 
 
 class HashTable{
