@@ -1,5 +1,5 @@
 //question: practicing the use of built in call and apply method to change the value of this 
-// the use of call method: generally call is used for passing the inheritence from the mother class to the children class
+// the use of call method: generally call is used for passing the inheritence from the mother class to its children class
 
 
 function add(a,b){
