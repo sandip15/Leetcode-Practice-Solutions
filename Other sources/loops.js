@@ -20,7 +20,7 @@ let numJewelsInStones = function (j,s){
   })
   return counter; 
   
-//using forEach loop to iterate over the elements   
+//approach 01: using forEach loop to iterate over the elements   
 stoneArray.forEach(function(e1){
   jewelArray.forEach(function(e2){
     if (e1 === e2) counter++
@@ -28,7 +28,7 @@ stoneArray.forEach(function(e1){
 })
 return counter;
 
-//using a for loop to iterate over the elements 
+//approach 02: using a for loop to iterate over the elements 
 for (let i=0 ; i<stoneArray.length ; i++){
   for (let j=0 ; j<jewelArray.length ; j++){
     if (stoneArray[i] === jewelArray[j]){
