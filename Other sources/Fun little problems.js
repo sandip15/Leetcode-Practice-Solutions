@@ -52,7 +52,7 @@ const combined = [...west,...east]
 console.log(combined)
 
 
-//5. need to reverse a given string 
+//5. Given a string, we need to reverse that string 
 function reverseString(str) {
   return str.split("").reverse().join("")
 }
