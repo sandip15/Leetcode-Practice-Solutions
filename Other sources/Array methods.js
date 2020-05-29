@@ -29,7 +29,7 @@ arr.sort(function(a,b){
   return b-a;
 })
 
-// Question: given two arrays return the common elements between those two arrays
+// Question: given two arrays need to return the common elements between those two arrays
 
 array1 = [10, 20, 4, 14, 4,22,22,2,22]
 array2 = [10, 2, 12, 4, 5,23,100,23,5]
@@ -52,7 +52,7 @@ function compare (arr1, arr2){
   return arr3;
 }
 
-// re-writing using es6 syntax
+// re-writing es5 function using es6 syntax
 
 function compare (arr1, arr2){
   const arr3 = [];
