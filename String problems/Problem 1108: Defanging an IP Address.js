@@ -11,7 +11,8 @@ var defangIPaddr = function(address) {
 defangIPaddr("255.100.50.0")
 
 
-//alternative approach
+//alternative approach for the above problem 
+
 
 var defangIPaddr = function(address) {
     return address.replace(/[.]/g, '[.]');
