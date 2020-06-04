@@ -1,4 +1,4 @@
-/*problem definition: question is to find common element of the array without using nested arrays which is usually very time consuming, 
+/*problem definition: question is to find common element of the given  array without using nested arrays which is usually very time consuming, 
 one solution is that we can use hash table or object to increase the time complexity of this */
 
 function findCommon (array){
