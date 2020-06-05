@@ -1,4 +1,5 @@
-//Application of currying in Javascript
+//show how to use currying in js
+
 
 function multiply(){
   let args = [].slice.apply(arguments)
