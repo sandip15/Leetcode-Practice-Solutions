@@ -1,7 +1,7 @@
 // basic concept: How the inheritence works in javascript
 // Prototype : Prototype is a property that every function you create in javasctipt has, that points to an object.
 
-//Basics :  implement one sample example for understanding how inheritence works in javascript
+//Basics :  Show an example for understanding how inheritence works in javascript
 
 function Animal(name,energy){
   let animal = Object.create(Animal.prototype)
@@ -12,6 +12,7 @@ function Animal(name,energy){
 
 /* when we use the above method with creating another object and then returning that object, we instantiate 
 the new object by the following way: */
+
 const leo = Animal ('leo',10);
 const snoop = Animal('snoop',12);
 
@@ -19,6 +20,7 @@ function Animal (name,energy){
   this.name = name;
   this.energy = energy;
 }
+
 // when we use the keyword 'new' during instantiating a new object then we follow the above method.
 //(here we dont have to create an object and then return that object like the previous one, the new keyword will take care of the rest)
 const leo = new Animal ("leo",10);
