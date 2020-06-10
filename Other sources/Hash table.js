@@ -1,4 +1,4 @@
-// task : Need to  Implement a hash table from scratch to fully understand how it works underneath the hood
+// task : Example showing the implementation of a hash table from scratch to fully understand how it works underneath the hood
 
 
 class HashTable{
@@ -7,6 +7,7 @@ class HashTable{
 	}
  
   _hash(key) {
+	  
   //random hash function to generate a hash for a given key
 	let hash = 0;
 	for (let i=0; i<key.length; i++){
