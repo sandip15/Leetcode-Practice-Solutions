@@ -1,12 +1,13 @@
-// task : Implement a hash table from scratch to fully understand how it works underneath the hood
+// task : Example showing the implementation of a hash table from scratch to fully understand how it works underneath the hood
 
 
 class HashTable{
-	constructor(size){
+	constructor(size){  // defining the constructor
 		this.data = new Array(size)
 	}
  
   _hash(key) {
+	  
   //random hash function to generate a hash for a given key
 	let hash = 0;
 	for (let i=0; i<key.length; i++){

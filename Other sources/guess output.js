@@ -1,5 +1,5 @@
 //pinduoduo written exam
-//1. problem : guess the output of the following piece of code:
+//1. problem : Need to guess the output of the following piece of code:
 
 setTimeout(function(){
   console.log('1')
@@ -16,7 +16,7 @@ console.log('4');
 //answer:
 // output is 2 ,4 ,3 ,1 
 
-//2. problem: what is the output of the following code:
+//2. problem: what is the output of the following piece of code:
 
 var bb = 1;
 function aa(bb){

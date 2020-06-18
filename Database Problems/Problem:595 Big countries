@@ -1,5 +1,5 @@
-# Write the MySQL query statement of the following problem , problem 595
-//problem from leetcode
+//leetcode problem
+# Problem definition : Write the MySQL query statement of the following problem , problem 595
 
 SELECT name,population,area 
 FROM world 

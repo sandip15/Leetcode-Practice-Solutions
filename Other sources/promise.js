@@ -1,5 +1,6 @@
 //practicing about how to use promise in js （make asynchoronous operations easy to handle)
-// implement a promise in js
+// Question: how to implement a promise in js, for understanding how it works underneath the hood
+
 let promiseToClean = function(){
   return new Promise(function(resolve,reject){
     resolve ("Room is cleaned");
@@ -20,7 +21,7 @@ promiseToClean().then(function(result){
 
 
 //-----------------------------------------------
-//using the ES6 syntex rewrite the use of promise 
+// rewrite the use of promise using the ES6 syntex
 
 const promise = new Promise((resolve,reject)=>{
   if (true){
