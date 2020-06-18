@@ -1,5 +1,10 @@
+
+// question: implement the use of call and apply method to change the value of this 
+// generally call is used for passing the inheritence from the mother class to the children class
+
 //question: practicing the use of (javasctipt built method) call and apply method to change the value of this 
 // the use of call method: generally call is used for passing the inheritence from the mother class to its children class
+
 
 
 function add(a,b){
