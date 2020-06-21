@@ -153,7 +153,7 @@ obj.method(fn, 1);
 
 
 
-//problem : what is the output of the following problem 
+//Task is to write the output for the following problem 
 
 var x = 21;
 var girl = function () {
