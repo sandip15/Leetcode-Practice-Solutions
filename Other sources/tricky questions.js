@@ -45,10 +45,14 @@ var arr1 = [{name:"sandip",age:16},{name:'joy',age:17}];
 var arr2 = [1,2,3];
 arr1.forEach(item => {item.age = item.age +1});
 console.log(arr1)
+// returns [ { name: 'sandip', age: 17 }, { name: 'joy', age: 18 } ]
 
 arr2.forEach(item => { return  item*2})
+console.log(arr2) // returns [ 1, 2, 3 ]
 
-console.log(arr2)
+//for making it work we can use:
+arr2.forEach((item,i)  => { arr2[i] = item*2})
+console.log(arr2) //returns [2,4,6]
 
 
 
@@ -61,8 +65,8 @@ let b = {
   name:"sandip",
   url: a
 };
-let c = Object.assign({},b);
-a.url = a.url + '.icu'
+let c = Object.assign({},b);  /* by assigning an object like this we are just creating a shallow copy of the object, 
+                              that means the nested object (a) still refers to the original object and changing either one will effect both the objects */
 console.log(c)
 
 /* output is :
