@@ -21,8 +21,8 @@ var nextListItem = function() {
     var item = list.pop();
 
     if (item) {
-        // process the list item...
-        setTimeout( nextListItem, 0);
+        // process the list item...  
+        setTimeout( nextListItem, 0); // by passing the function into a event loop avoids going for a stack overflow.
     }
 };
 
