@@ -21,7 +21,7 @@ promiseToClean().then(function(result){
 
 
 //-----------------------------------------------
-// rewrite the use of promise using the ES6 syntex
+// rewrite the use of promise using the ES6 syntex. (practice es6)
 
 const promise = new Promise((resolve,reject)=>{
   if (true){
