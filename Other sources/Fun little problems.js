@@ -1,4 +1,4 @@
-//problem 01. task is to  Simplify the following code  with es6 enhanced object literals
+//problem 01. Need to  Simplify the following code using es6 enhanced object literals
 
 const newFunction = function literal(firstName, lastName){
   return {
