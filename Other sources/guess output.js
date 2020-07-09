@@ -37,7 +37,7 @@ a[1]=2
 a[2]=3
 a[5]=4
 
-a.length 
+a.length // here it creates the array slot till a[5] and a[4] is assigned as undefined
 
 //Answer:  output is 6
 
