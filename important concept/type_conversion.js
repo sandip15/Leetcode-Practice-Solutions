@@ -11,8 +11,8 @@ console.log( "A" - "B" + 2);
 
 The above code will output the following to the console:
 
-"122"
-"32"
+"122" // first 1 gets converted to string and then adds with "2" and eventually "12" with "2" outputting "122"
+"32". // here +before first '2' is a unary operator and converts '2' into integer and then adds with 1 finally 3 gets converted to string and adds with "2"
 "02"
 "112"
 "NaN2"
