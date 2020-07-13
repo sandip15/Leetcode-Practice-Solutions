@@ -5,7 +5,7 @@ console.log(jh.toString().split("").reverse()); // converting the number to stri
 
 //replace all the "a"s by x
 var jj = "my name is Sandip";
-console.log(jj.replace(/a/gi , 'x'));
+console.log(jj.replace(/a/gi , 'x'));  // using regex expression, here g stands for global 
 
 //replace all the digits in the phone number with X
 var phn = "my phone number is 0086-18302177036"
@@ -15,7 +15,7 @@ console.log(phn.replace(/[0-9]/gi, 'X'));
 // for inserting at the beggining of the array we use the unshift method
 var arr = [4,6,3,74,35,77];
 
-console.log(arr.shift()); // removes 4
+console.log(arr.shift()); // for removing from the front of the array, here it removes 4
 console.log(arr);
 arr.unshift(12); // inserts 12 at the head of the array
 console.log(arr);
