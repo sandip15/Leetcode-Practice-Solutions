@@ -1,5 +1,6 @@
 // The following recursive code will cause a stack overflow if the array list is too large. How can you fix this and still retain the recursive pattern?
 
+//solution: using setTimeout method
 var list = readHugeList();
 
 var nextListItem = function() {
