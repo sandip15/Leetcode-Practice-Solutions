@@ -1,6 +1,6 @@
 
 /* leetcode problem no :344 
-Question: Given with a string, we are required to Reverse that string using  0(1) space, 
+Question: Given a string, need to Reverse that string using  0(1) space, 
 and therefore not allowed use any extra space by using any new data structure for solving this problem */
 
 var reverseString = function(s) {
@@ -9,7 +9,7 @@ var reverseString = function(s) {
   if (s.length <=1) return s;
 
   while (i<j){
-    [s[i],s[j]] = [s[j],s[i]];     /* Here we are not using any extra space here but another way to implement it might be push 
+    [s[i],s[j]] = [s[j],s[i]];     /* Explanation: Here we are not using any extra space here but another way to implement it might be push 
                                       the last elements to the newly created array and then return that array */
     i++;
     j--;
