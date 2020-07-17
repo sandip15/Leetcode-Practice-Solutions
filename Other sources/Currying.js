@@ -1,5 +1,5 @@
 //show how to use currying in js
-
+// the same program can accept different number of parameters like multiply(1)(2)(3), multiply (1,2)(3) and multiply (1)(2,3)
 
 function multiply(){
   let args = [].slice.apply(arguments)
