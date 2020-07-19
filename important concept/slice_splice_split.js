@@ -2,8 +2,8 @@
 
 Slice ( )
 /*
-Copies elements from an array
-Returns them as a new array
+it Copies elements from an array
+Returns them as a new array,
 Doesn’t change the original array
 Starts slicing from … until given index: array.slice (from, until)
 Slice doesn’t include “until” index parameter
