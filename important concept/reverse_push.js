@@ -1,4 +1,4 @@
-/* What will the code below output to the console and why? 
+/* guess the output of the code below and also state the reason behind that 
 reference : https://www.toptal.com/javascript/interview-questions
 */
 
