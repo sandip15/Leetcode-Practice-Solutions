@@ -1,4 +1,5 @@
 //What will the code below output to the console and why ?  reference :https://www.toptal.com/javascript/interview-questions
+//important interview question, tricky js questions
 
 console.log(1 +  "2" + "2");
 console.log(1 +  +"2" + "2");
