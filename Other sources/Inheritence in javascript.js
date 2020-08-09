@@ -1,7 +1,7 @@
 // basic concept: How the inheritence works in javascript
 // Prototype : Prototype is a property that every function you create in javasctipt has, that points to an object.
 
-//Basics :  Show an example for understanding how inheritence works in javascript
+//Basics :  Show an example for understanding how prototype based inheritence works in javascript
 
 function Animal(name,energy){
   let animal = Object.create(Animal.prototype)
