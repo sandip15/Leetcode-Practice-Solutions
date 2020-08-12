@@ -14,7 +14,7 @@ var nextListItem = function() {
 
 //answer badge
 
-//The potential stack overflow can be avoided by modifying the nextListItem function as follows:
+//The potential stack overflow can be avoided by modifying the nextListItem function as follows (using an event loop) :
 
 var list = readHugeList();
 
