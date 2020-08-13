@@ -1,8 +1,9 @@
-//practicing use of generator functions
-// using generator function will pause the execution of the function and resumes it until yield
+// Practicing use of generator functions
+// Using generator function will pause the execution of the function and resumes it until yield
+
 const myGen = function* (){
-  const one = yield 1;
-  console.log("i am good!!")
+  const one = yield 1;  // first resume of the funciton execution
+  console.log("i am good!!") 
   const two = yield 2;
   const three = yield 3;
 
