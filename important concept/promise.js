@@ -23,7 +23,7 @@ const sub = function (a,b){
   })
 }
 
-add(2,2).then(function (added){.    //chaining all the promises together
+add(2,2).then(function (added){.    // here we are chaining all the promises together
   return sub(added,3)
 }).then((subtracted) => {
   return add(subtracted,5)
