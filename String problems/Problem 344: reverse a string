@@ -10,7 +10,7 @@ var reverseString = function(s) {
 
   while (i<j){
     [s[i],s[j]] = [s[j],s[i]];     /* Explanation: Here we are not using any extra space, but another way to implement it might be push 
-                                      the last elements to the newly created array and then return that array */
+                                      the last elements to the newly created array and then return that array and thereby increasing the space complexity*/
     i++;
     j--;
   }
