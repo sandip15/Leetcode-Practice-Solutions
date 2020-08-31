@@ -1,7 +1,7 @@
 //------------------------leetcode problem using different kinds of loops in javascript----------------
 
 // Question: leetcode problem number 771(easy)
-/* You're given strings J representing the types of stones that are jewels, and S representing the stones you have. 
+/* we're given with two strings, J representing the types of stones that are jewels, and S representing the stones you have. 
 Each character in S is a type of stone you have.  You want to know how many of the stones you have are also jewels.
 
 The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, 
