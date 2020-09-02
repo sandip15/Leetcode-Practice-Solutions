@@ -4,7 +4,7 @@ Slice ( )
 /*
 it Copies elements from an array
 Returns them as a new array,
-Doesn’t change the original array
+Doesn’t change or modify the original array
 Starts slicing from … until given index: array.slice (from, until)
 Slice doesn’t include “until” index parameter
 Can be used both for arrays and strings
@@ -14,7 +14,7 @@ Splice ( )
 /*
 Used for adding/removing elements from array
 Returns an array of removed elements
-Changes the array
+it Changes or modifies the original array 
 For adding elements: array.splice (index, number of elements, element)
 For removing elements: array.splice (index, number of elements)
 Can only be used for arrays
