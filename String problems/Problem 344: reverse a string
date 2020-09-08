@@ -1,7 +1,7 @@
 
 /* leetcode problem no :344 
-Question: Given a string, we need to Reverse that string using  0(1) space, 
-and therefore not allowed use any extra space by using any new data structure for solving this problem */
+Question: Given a string, we need to Reverse that string using constant 0(1) space complexity, 
+and therefore not allowed to use any extra space by using any new data structure for solving this problem */
 
 var reverseString = function(s) {
   var i =0;
