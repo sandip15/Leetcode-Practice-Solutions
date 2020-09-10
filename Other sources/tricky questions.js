@@ -29,7 +29,7 @@ d.say()()  /* outputs the d object. here this refers to the d object since we ar
 is lexically scoped, instead of functionally scoped. */
 
 
-//problem: what is the output of the following: 
+//problem: write what is the output of the following: 
 
 let arr = [1,2,3];
 arr.map(item => {return item*2});
@@ -56,7 +56,7 @@ console.log(arr2) //returns [2,4,6]
 
 
 
-//problem:  write the output of the following piece of code
+//problem: need to write the output of the following piece of code
 
 let a ={
   url :'996'
