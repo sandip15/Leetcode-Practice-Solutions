@@ -1,4 +1,4 @@
-// task : Example showing the implementation of a hash table from scratch to fully understand how it works underneath the hood
+// task : Example of showing the implementation of a hash table from scratch to fully understand how it works underneath the hood
 
 
 class HashTable{
@@ -8,7 +8,7 @@ class HashTable{
  
   _hash(key) {
 	  
-  //random hash function to generate a hash for a given key
+  //random hash function to generate a hash for the given key
 	let hash = 0;
 	for (let i=0; i<key.length; i++){
 		hash = (hash+ key.charCodeAt(i)*i)
@@ -18,6 +18,7 @@ class HashTable{
   }
   
   set(key,value){
+	  
   //setting the key velue pair  of the hash table
 	let address = this._hash(key);
 	if (!this.data[address]){
