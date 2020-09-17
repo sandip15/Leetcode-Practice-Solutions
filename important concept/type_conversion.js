@@ -20,7 +20,7 @@ The above code will output the following to the console:
 NaN
 
 
-Here’s why…
+Here’s the technical explanations about why they work like this:
 
 The fundamental issue here is that JavaScript (ECMAScript) is a loosely typed language and it performs automatic type conversion on values to accommodate the operation being performed. Let’s see how this plays out with each of the above examples.
 
