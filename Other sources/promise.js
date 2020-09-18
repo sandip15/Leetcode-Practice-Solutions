@@ -1,5 +1,5 @@
 //practicing about how to use promise in js （make asynchoronous operations easy to handle)
-// Question: how to implement a promise in js, for understanding how it works underneath the hood
+// Question: how to implement a promise in javascript, for understanding how it works underneath the hood
 
 let promiseToClean = function(){
   return new Promise(function(resolve,reject){
