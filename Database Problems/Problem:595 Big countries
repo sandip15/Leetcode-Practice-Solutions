@@ -1,6 +1,6 @@
-//leetcode problem
+//leetcode problem problem number 595
 # Problem definition : Write a MySQL query statement of the following problem satisfying different criterias , 
-//leetcode problem number 595
+
 
 SELECT name,population,area 
 FROM world 
