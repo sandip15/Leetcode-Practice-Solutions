@@ -1,5 +1,6 @@
 // Practicing use of generator functions
-// Using generator function will pause the execution of the function and resumes it until yield, very useful for pausing the execution of some context
+// The basic concept of a Using generator function is that it will pause the execution of the function and resumes it until yield, 
+//very useful for pausing the execution of some context
 
 const myGen = function* (){
   const one = yield 1;  // first resume of the funciton execution
