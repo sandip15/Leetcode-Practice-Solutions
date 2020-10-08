@@ -16,7 +16,7 @@ console.log('4');
 //answer:
 // output is 2 ,4 ,3 ,1 
 
-//2. problem: what is the output of the following piece of code:
+//2. problem: what is the output of the following code:
 
 var bb = 1;
 function aa(bb){
@@ -29,7 +29,7 @@ alert(bb)
 //answer:  output is 2, then 1
 
 
-//problem 3. guess what is the value of a.length of the following code:
+//problem 3. what is the value of a.length of the following code:
 
 var a = []
 a[0]=1
