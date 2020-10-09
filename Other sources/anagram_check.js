@@ -1,4 +1,4 @@
-//check if the given two strings are anagrams to each other
+//problem is to check if the given two strings are anagrams to each other
 var firstWord = "Mary";
 var secondWord = "Ary";
 
