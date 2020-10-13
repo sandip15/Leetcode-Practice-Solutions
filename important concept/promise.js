@@ -1,5 +1,4 @@
-//practicing promise to handle asynch operations in js
-// understand how the concept of promise works underneath the hood in javascript
+//practicing promise to handle asynch operations in js clarifying the concept of how promise works underneath the hood in javascript
 
 const add = function (a,b){
   return new Promise((resolve,reject) => {
