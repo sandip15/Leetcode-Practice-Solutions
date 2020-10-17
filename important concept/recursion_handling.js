@@ -1,4 +1,4 @@
-// The following recursive code will result a stack overflow if the array list is too large. Task is to fix this and still retain the recursive pattern
+// The following recursive code will result in a stack overflow if the array list is too large. our task is to fix this and still retain the recursive pattern
 
 //solution: using setTimeout method
 var list = readHugeList();
