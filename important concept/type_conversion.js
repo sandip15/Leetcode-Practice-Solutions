@@ -1,5 +1,5 @@
-// What will the code below output to the console and why ?  reference :https://www.toptal.com/javascript/interview-questions
-// important interview question regarding type conversion
+// What will be the output of the following to the console and why ?  reference :https://www.toptal.com/javascript/interview-questions
+// Important interview question related to type conversion
 
 console.log(1 +  "2" + "2");
 console.log(1 +  +"2" + "2");
