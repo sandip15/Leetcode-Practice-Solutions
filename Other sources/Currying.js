@@ -1,4 +1,4 @@
-//show how to use currying in js
+//Explain the use of currying in js
 // the same program can accept different number of parameters as arguments, for example multiply(1)(2)(3), multiply (1,2)(3) and multiply (1)(2,3)
 
 function multiply(){
