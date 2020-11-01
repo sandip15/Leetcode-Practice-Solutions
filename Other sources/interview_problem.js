@@ -1,4 +1,4 @@
-//Write a sum method which will work properly when invoked using either syntax below : sum(x)(y) and sum (x,y)
+//Write a sum function which will work properly when invoked using either syntax below : sum(x)(y) and sum (x,y)
 
 //first method
 
