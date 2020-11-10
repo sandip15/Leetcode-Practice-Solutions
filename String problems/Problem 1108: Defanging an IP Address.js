@@ -1,5 +1,5 @@
 //leetcode problem number: 1108. given with an IP address,we need to Defange that IP Address
-/*Given a valid (IPv4) IP address, we need to return a defanged version of that IP address. A defanged IP address replaces every period "." with "[.]".*/
+/* when given with a valid (IPv4) IP address, we need to return a defanged version of that IP address. A defanged IP address replaces every period "." with "[.]".*/
 
 
 var defangIPaddr = function(address) {
