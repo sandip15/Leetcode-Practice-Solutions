@@ -1,5 +1,5 @@
-//leetcode problem problem number 595
-# Problem definition : Write a MySQL query statement of the following problem satisfying different criterias , 
+// Leetcode problem problem number : 595
+# Problem definition : Write a MySQL query statement of the following problem satisfying different criterias, 
 
 
 SELECT name,population,area 
